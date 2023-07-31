@@ -9,7 +9,6 @@ volatile bool buttonPressedFlag = false;
 
 void button_interrupt() {
     buttonPressedFlag = true;
-    printf("Button pressed!\r\n");
 }
 
 int main() {
